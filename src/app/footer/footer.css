@@ -1,0 +1,39 @@
+.footer{
+    background-color: #2C3E50;
+ 
+}
+.container{
+    padding:40px;
+   
+}
+.parts{
+    padding :30px;
+ 
+    padding-left: 20px;
+    padding-right: 20px;
+   
+}
+.part{
+    background-color: #2C3E50;
+    color: white;
+    width:30%;
+}
+.icons i{
+    padding: 0px 10px;
+}
+.part i{
+    display: flex;
+    flex-wrap: wrap;
+}
+h3{
+    text-align: center;
+}
+.copy{
+    background-color:#1A252F;
+    text-align: center;
+    color:white;
+}
+.copy .container{
+    padding:15px;
+    
+}

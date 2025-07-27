@@ -1,0 +1,29 @@
+h2{
+    color:#2C3E50;
+}
+ .line{
+    width:80px;
+    height: 4px;
+    color:#2C3E50;
+}
+.lines i{
+    color:#2C3E50 ;
+}
+.portfolio{
+     padding:50px;
+     background-color: white;
+}
+.img-part{
+    position: relative;
+    overflow: hidden;
+}
+.img-part .icon-part {
+  background-color: rgba(26, 188, 156, 0); 
+  opacity: 0;
+  transition: opacity 0.3s ease, background-color 0.3s ease;
+}
+
+.img-part:hover .icon-part {
+  opacity: 1;
+  background-color: rgba(26, 188, 156, 0.7); 
+}
